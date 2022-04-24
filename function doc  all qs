@@ -1,0 +1,191 @@
+# def drinks_servey(age):
+#     if age<14:
+#         print(age, 'drink toddy')
+#     elif age<18:
+#         print (age,'drink coke')
+#     elif age<21:
+#         print (age,'drink beer')
+#     elif age>=21:
+#         print (age,'drink whisky')
+# drinks_servey(10)
+# drinks_servey(16)
+# drinks_servey(25)
+# drinks_servey(20)
+
+
+# def exponents(limit):
+#     i=0
+#     req_list=[]
+#     while i<=limit:
+#         req_list.append(2**i)
+#         i+=1
+#     print(req_list)
+# exponents(2)
+
+    
+# def table(num):
+#     i=1
+#     while i<=10:
+#         print (num,'x',i,'=',num*i)
+#         i=i+1
+# table(5)
+
+
+# def prime(limit):
+#     i=1
+#     print('prime no.s till',limit)
+#     while i<=limit:
+#         j=1
+#         factor=0
+#         while j<=i:
+#             if i%j==0:
+#                 factor+=1
+#             j+=1
+#         if factor==2:
+#             print(i)
+#         i+=1
+# prime(20)
+
+
+# def a(b="1234abcd"):
+#     i=1
+#     c=""
+#     while i<=len(b):
+#         c=b[-i]
+#         i=i+1
+#         print(c,end="")
+#     print()
+# a()
+
+
+# num=1
+# def func():
+#     num=3
+#     print(num)
+# func()
+# print(num)
+
+# def func(x=1, y=2):
+#     x=x+y
+#     y+=1
+#     print(x,y)
+# func(y=2, x=1)
+
+
+# def exponent_calculator(base,arguement):
+#     num=base**arguement
+#     print(num)
+# exponent_calculator(2,6)
+# exponent_calculator(4,5)
+
+# def number(num):
+#     if num%2==0:
+#         print(num,'is even.')
+#     else:
+#         print('given no. is odd.')
+# number(76)
+# number(97)
+
+
+# def fib(number):
+#     if number == 1:
+#         return 0
+#     elif number == 2:
+#         return 1
+#     else:
+#         return fib(number-1) + fib(number-2)
+
+# def getFibList(number):
+#     fib_list = []
+#     key = 1
+#     while (key < number + 1):
+#         fib_list.append(fib(key))
+#         key += 1
+#     return fib_list
+
+# print(getFibList(10))
+
+# def number(num):
+#     if num%2==0:
+#         print(num,'is even.')
+#     else:
+#         print('given no. is odd.')
+# number(76)
+# number(97)
+
+# def making_nos_interesting(num):
+#     i=0
+#     while num>0:
+#         if num%10==0:
+#             num//10
+#         else:
+#             break
+#     print(num)
+# making_nos_interesting(960000)
+# making_nos_interesting(105000)
+
+# def removing_zeros(list):
+# a=[1100,1200,300000,50000,12600]
+# i=0
+# b=[]
+# while i<len(a):
+#     while a[i]>0:
+#         if a[i]%10!=0:
+#             b.append(a[i])
+#             break
+#         a[i]//=10
+#     i+=1
+# (list)
+
+
+    
+# def elements_from_last(list,n):
+#     j=len(list)-n
+#     while j<len(list):
+#         print(list[j])
+#         j+=1
+# elements_from_last(['a','1','2','5','b','q'],3)
+
+
+# def case_calculator(string):
+#     i=0
+#     upper_case=0
+#     lower_case=0
+#     while i<len(string):
+#         if string[i]>'A' and string[i]<='Z':
+#             upper_case+=1
+#         elif string[i]>'a' and string[i]<='z':
+#             lower_case+=1
+#         else:
+#             pass
+#         i+=1
+#     print('no. of character in upper case,upper_case')
+#     print('no. of character in lower case,lower_case')
+# case_calculator('the quick brow fox')
+
+
+
+# def operate(num1, operator, num2):
+#     if operator=='+':
+#         return num1 + num2
+#     elif operator=='-':
+#         return num1 - num2
+#     elif operator=='*':
+#         return num1 * num2
+#     else:
+#         return num1 / num2
+# operate(num1)
+# operate(operator)
+# operate(num2)
+
+
+def a(b="shivani"):
+    i=1
+    c=""
+    while i<=len(b):
+        c=b[-i]
+        i=i+1
+        print(c,end="")
+    print()
+a()
+
